@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0px;
+
+}
+.Navbar {
+   
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/* .Navbar button{
+
+} */
+
+.buttons{
+    display: flex;
+    gap: 20px;
+
+}
+
+.active{
+    padding: 5px 10px;
+    background-color: blue;
+    border-radius: 5px;
+    border: 2px solid blue;
+    color: white;
+    text-decoration: none;
+}
+
+.inactive {
+    /* background-color:  ; */
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid blue;
+    color: blue;
+    text-decoration: none;
+}
+
+
+/* .buttons button {
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid blue;
+    color: blue;
+} */
